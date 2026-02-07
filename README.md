@@ -1,6 +1,3 @@
-## Hi there 👋
-
-
 # DANI-SLAM
 
 DANI-SLAM is a **dynamic-aware SLAM system** that integrates deep feature extraction, robust feature matching, and neural implicit mapping to achieve accurate localization and high-quality mapping in dynamic environments.
