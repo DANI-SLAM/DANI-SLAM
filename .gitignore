@@ -1,0 +1,90 @@
+####################################
+# Build / Compile
+####################################
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+
+####################################
+# Thirdparty (compiled results only)
+####################################
+Thirdparty/**/build/
+Thirdparty/**/bin/
+Thirdparty/**/lib/
+Thirdparty/**/lib64/
+Thirdparty/**/install/
+
+####################################
+# Torch / OpenCV / CUDA
+####################################
+libtorch/
+opencv/
+cuda/
+*.pt
+*.pth
+*.onnx
+*.engine
+
+####################################
+# SLAM runtime outputs
+####################################
+log/
+logs/
+output/
+trajectory/
+results/
+*.log
+
+####################################
+# Datasets (never commit datasets)
+####################################
+data/
+dataset/
+datasets/
+sequence/
+rgb/
+depth/
+
+####################################
+# Vocabulary / Large binary
+####################################
+*.bin
+*.dbow2
+*.dbow3
+
+####################################
+# IDE / OS
+####################################
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+####################################
+# Python cache
+####################################
+__pycache__/
+*.pyc
+
+####################################
+# ROS / Catkin
+####################################
+devel/
+install/
+build_isolated/
+
+####################################
+# Vocabulary (large files)
+####################################
+Vocabulary/*.yml
+Vocabulary/*.yaml
+
